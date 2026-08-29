@@ -1,0 +1,5 @@
+# /opt/spark/conf/workers on spark-manager
+# One hostname per line. start-workers.sh SSHes to each of these.
+# Each name must resolve from the master (/etc/hosts or DNS).
+spark-worker1
+spark-worker2
